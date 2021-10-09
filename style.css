@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#main {
+
+}
+
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    font-family: 'Rammetto One', cursive;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color:#fff;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover .subnav {
+    display: inline-block;
+
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover{
+    color:black;
+    background-color: #ccc;    
+}
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    top: 100%;
+    left: 0;
+}
+
+#nav .subnav a{
+    color: #000;
+    padding: 0 16px;
+    line-height: 38px;
+}
+
+#slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 35%;
+    background: url('/assets/img/slider/star.jpg') top center / cover no-repeat;
+}
+
+
+#slider .text-content {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Style Script', sans-serif;
+}
+
+#slider .text-heading {
+    color: #ccc;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 100px;
+}
+
+#slider .text-discription{
+    color: #ccc;
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+
+#content {
+    height: 2300px;
+}
+
+#about img {
+    padding-top: 96px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#about h2 {
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    color:dimgray;
+}
+
+#education {
+    margin-top: 300px;
+    padding-top: 48px;
+    text-align: center;
+}
+
+#education h1{
+    color:cornflowerblue;
+    font-family: 'Rammetto One', cursive;
+}
+
+#education h2,
+#education p {
+    font-family: 'Rammetto One', cursive;
+    color:dimgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#certificates h1 {
+    margin-top: 50px;
+    padding-top: 46px;
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    color:cornflowerblue;
+}
+
+.cert-img {
+    margin-top: 50px;
+    float: left;
+    width: 33.3333%;
+    padding: 0 8px;
+}
+
+.cert-img img {
+    width: 100%;
+}
+
+.cert-text {
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    color:forestgreen;
+}
+
+#myskills {
+    margin-top: 450px;
+}
+
+#myskills h1 {
+    padding-top: 46px;
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    color:cornflowerblue;
+}
+
+.skills-row {
+    float: left;
+    width: 25%;
+    padding: 0 105px;
+}
+
+.skills-img {
+    width: 70px;
+    height: 80px; 
+    margin: 50px;    
+}
+
+.skills-text {
+    text-align: center;
+    font-family: 'Rammetto One', cursive;
+    color:darkgreen;
+}
+
+#footer {
+    background-color:teal;
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+
+#contact {
+    font-size: 24px;
+
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#contact a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
