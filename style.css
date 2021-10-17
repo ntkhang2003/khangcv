@@ -213,3 +213,53 @@ html {
     padding-top: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #slider {
+        padding-top: 75%;
+    }
+    #slider .text-content {
+        bottom: 50px;
+    }
+    
+    #slider .text-heading {
+        font-size: 70px;
+    }    
+
+    #slider .text-discription{
+        font-size: 30px;
+    }
+
+    .cert-img {
+        margin-top: 50px;
+        float: none;
+        width: 100%;
+        padding: 0 8px;
+    }
+    
+    .cert-img img {
+        width: 100%;
+    }
+    
+    .cert-text {
+        text-align: center;
+        font-family: 'Rammetto One', cursive;
+        color:forestgreen;
+    }
+
+    #myskills {
+        margin-top: 200px;
+        margin-bottom: 300px;
+    }
+
+    .skills-row {
+        width: 25%;
+        padding: 0 50px;
+    }
+    
+    .skills-img {
+        width: 70px;
+        height: 80px; 
+        margin: 50px auto;    
+    }
+}
